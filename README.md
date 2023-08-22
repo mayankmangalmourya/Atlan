@@ -13,9 +13,12 @@ A web-based application capable of running SQL queries and displaying the result
 3. **Dynamic Table Views**
 - Keep an application light-weight, and fast.
 - Initailly only table name fetched not a table data. when click on table it will fetched table data.
-4. **Defining Custom Types for Columns**: Each person is not the same; similarly, each column is not the same. You might want to specify certain processing functions: want to parse an image, or return an integer. You can do all this, and the table will display the processed result.
-5. **Result Statistics**: The user will also be alerted about the time taken to complete a query, giving the user a measure to check the performance of the system.
-6. **Ability to save the results as JSON, XML, or CSV**: This application includes functionality to save the results of a query in JSON, XML, and CSV formats. _**Pro Tip**: You can also save a query,so that you don't have to type the same thing twice!_
+4. **Result Statistics**
+- Alert about time taken to complete a query
+- Measure & Check the performance of the system.
+5. **Ability to save the results as JSON, XML, or CSV**
+- Save the results of a query in JSON, XML, and CSV formats.
+- Fuctionality of Saving Query So user don't have to type it twice.
 
 
 ## Run Locally
