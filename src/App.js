@@ -1,24 +1,73 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Header from "./components/navigation/header";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import SideBar from "./components/navigation/sideBar";
+import QueryTabs from "./components/tabs";
+import { useState } from "react";
+import Collapse from "react-bootstrap/Collapse";
+import "@fontsource/raleway";
+import "./css/index.css";
 
 function App() {
+  const [activeKey, setActiveKey] = useState("");
+  const [tabs, setTabs] = useState([]);
+  const [queryCount, setQueryCount] = useState(1);
+  const [sidebarOpen, setSidebarOpen] = useState(false);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header
+        activeKey={activeKey}
+        setActiveKey={setActiveKey}
+        tabs={tabs}
+        setTabs={setTabs}
+        queryCount={queryCount}
+        setQueryCount={setQueryCount}
+        sidebarOpen={sidebarOpen}
+        setSidebarOpen={setSidebarOpen}
+      />
+      <Collapse in={sidebarOpen}>
+        <div>
+          <SideBar
+            activeKey={activeKey}
+            setActiveKey={setActiveKey}
+            tabs={tabs}
+            setTabs={setTabs}
+            mobile
+          />
+        </div>
+      </Collapse>
+      
+      <Container fluid>
+        <Row>
+          <Col lg={2} md={3} className={"d-none d-lg-block d-xl-block"}>
+            <SideBar
+              activeKey={activeKey}
+              setActiveKey={setActiveKey}
+              tabs={tabs}
+              setTabs={setTabs}
+            />
+          </Col>
+
+          <Col
+            lg={10}
+            md={9}
+            style={{
+              padding: "1rem",
+            }}
+          >
+            <QueryTabs
+              tabs={tabs}
+              setTabs={setTabs}
+              activeKey={activeKey}
+              setActiveKey={setActiveKey}
+            />
+          </Col>
+        </Row>
+      </Container>
+    </>
   );
 }
 
