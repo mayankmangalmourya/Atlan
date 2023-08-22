@@ -8,25 +8,25 @@ A web-based application capable of running SQL queries and displaying the result
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/mayankmangalmourya/Atlan.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd my-project
+  cd Atlan
 ```
 
 Install dependencies
 
 ```bash
-  npm install
+  yarn add
 ```
 
 Start the server
 
 ```bash
-  npm run start
+  yarn start
 ```
 
 
