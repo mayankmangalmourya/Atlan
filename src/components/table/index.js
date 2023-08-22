@@ -5,15 +5,8 @@
     usePagination,
   } from "react-table";
 
-  import Container from "react-bootstrap/Container";
-  import Row from "react-bootstrap/Row";
-  import Col from "react-bootstrap/Col";
-  import Form from "react-bootstrap/Form";
-  import Table from "react-bootstrap/Table";
-  import Spinner from "react-bootstrap/Spinner";
-  import FloatingLabel from "react-bootstrap/FloatingLabel";
-  import Pagination from "react-bootstrap/Pagination";
-  import Alert from "react-bootstrap/Alert";
+  import {Container, Row, Col, Form, Table, Spinner, FloatingLabel, Pagination, Alert} from "react-bootstrap";
+
 
   import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
   import { faCheck } from "@fortawesome/free-solid-svg-icons/faCheck";

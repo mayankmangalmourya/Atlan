@@ -1,6 +1,4 @@
-import Navbar from "react-bootstrap/Navbar";
-import Container from "react-bootstrap/Container";
-import Button from "react-bootstrap/Button";
+import {Navbar, Container, Button} from "react-bootstrap";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons/faBars";
@@ -8,12 +6,6 @@ import { faBars } from "@fortawesome/free-solid-svg-icons/faBars";
 import { getPropTypes, openNewTab } from "../../utils";
 import { ReactComponent as AtlanLogo } from "../../logo.svg";
 
-/**
- * The React component to display the header.
- * @param props
- * @returns {JSX.Element}
- * @constructor
- */
 function Header(props) {
   return (
     <Navbar className="shadow p-3">

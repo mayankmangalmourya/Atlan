@@ -1,7 +1,4 @@
-import CloseButton from "react-bootstrap/CloseButton";
-import Col from "react-bootstrap/Col";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
+import {CloseButton, Col, Row, Container} from "react-bootstrap";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
