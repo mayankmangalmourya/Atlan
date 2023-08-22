@@ -10,12 +10,15 @@ A web-based application capable of running SQL queries and displaying the result
 - Allows user to switch between multiple queries at once.
 - Table _and_ run a query at the same time
 - Don't have to reload the page, we can jump right or left.
+- Application contains feature of recent tab openning System.
 3. **Dynamic Table Views**
 - Keep an application light-weight, and fast.
 - Initailly only table name fetched not a table data. when click on table it will fetched table data.
+- It include the seaching feature in fetched record's
 4. **Result Statistics**
 - Alert about time taken to complete a query
 - Measure & Check the performance of the system.
+- Advance Feature of View Record in different amount of row's 10,20,50,100.
 5. **Ability to save the results as JSON, XML, or CSV**
 - Save the results of a query in JSON, XML, and CSV formats.
 - Fuctionality of Saving Query So user don't have to type it twice.
