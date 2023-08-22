@@ -50,6 +50,18 @@ Start the server
   yarn start
 ```
 
+## Performance Audit
+
+- **[GTmetrix](https://gtmetrix.com/)**
+- The fully loaded time is 744ms seconds, with the first contentful paint at 542 ms.
+![image](https://github.com/mayankmangalmourya/Atlan/assets/87426167/36e15756-26f4-45bb-9633-d9380b5798b1)
+- **[Performance Metrix](https://gtmetrix.com/)**
+![image](https://github.com/mayankmangalmourya/Atlan/assets/87426167/2ed2d2fc-1f5f-4388-96a5-0e6100ede26f)
+
+
+- **[web.dev](https://web.dev/measure)**
+- The load time according to web.dev is **2.2 seconds**. The site also scores **96 perc performance** and **100 points in best practices**. The exact metrics are:
+![image](https://github.com/mayankmangalmourya/Atlan/assets/87426167/62481d43-aacf-466c-83ba-a8b62633a2fb)
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
