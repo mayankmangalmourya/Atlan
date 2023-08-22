@@ -1,4 +1,35 @@
-# Getting Started with Create React App
+# SQL-EDITOR
+
+### Description
+A web-based application capable of running SQL queries and displaying the results of said query. The application include a space which accepts SQL queries in the form of user inputs, then runs the given query, and displays the result within the application..
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://link-to-project
+```
+
+Go to the project directory
+
+```bash
+  cd my-project
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run start
+```
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
