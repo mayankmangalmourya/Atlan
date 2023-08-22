@@ -26,8 +26,8 @@ function QueryButtons() {
     },
   ].map(({ icon, title }, index) => (
     <Button
-      size={"md"}
-      variant={"outline-primary"}
+      size={"sm"}
+      // variant={"outline-primary"}
       style={{
         borderLeft: 1,
         borderTop: "none",
@@ -44,7 +44,12 @@ function QueryButtons() {
   ));
   return (
     <ButtonToolbar className="mb-3 mt-3">
-      <ButtonGroup className="me-2">{buttons}</ButtonGroup>
+      <ButtonGroup className="me-2"
+        style={{
+          position: "absolute",
+          right: 50,
+        }}
+      >{buttons}</ButtonGroup>
     </ButtonToolbar>
   );
 }
