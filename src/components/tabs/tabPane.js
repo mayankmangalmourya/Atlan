@@ -22,7 +22,6 @@ function TabPane({ tab }) {
         <QuerySpace defaultQuery={tab.defaultQuery} />
       </Row>
       <QueryButtons />
-      <hr />
       <Tabs defaultActiveKey="results" className="mb-3">
         <Tab eventKey="results" title="Results">
           <ResultsTable
