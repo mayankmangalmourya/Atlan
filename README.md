@@ -1,4 +1,69 @@
-# Getting Started with Create React App
+# SQL-EDITOR
+
+### Description
+A web-based application capable of running SQL queries and displaying the results of said query. The application include a space which accepts SQL queries in the form of user inputs, then runs the given query, and displays the result within the application.  This particular project is built using **[React](https://reactjs.org/)**(Yarn) and the **[React Bootstrap](https://react-bootstrap.github.io/)** front-end framework. It originally contains a data dump borrowed from [this](https://github.com/graphql-compose/graphql-compose-examples/tree/master/examples/northwind/data/csv) repository.
+
+## Features
+
+1. **Tab Based Interface**
+- Easy-to-use.
+- Allows user to switch between multiple queries at once.
+- Table _and_ run a query at the same time
+- Don't have to reload the page, we can jump right or left.
+- Application contains feature of recent tab openning System.
+3. **Dynamic Table Views**
+- Keep an application light-weight, and fast.
+- Initailly only table name fetched not a table data. when click on table it will fetched table data.
+- It include the seaching feature in fetched record's
+4. **Result Statistics**
+- Alert about time taken to complete a query
+- Measure & Check the performance of the system.
+- Advance Feature of View Record in different amount of row's 10,20,50,100.
+5. **Ability to save the results as JSON, XML, or CSV**
+- Save the results of a query in JSON, XML, and CSV formats.
+- Fuctionality of Saving Query So user don't have to type it twice.
+
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/mayankmangalmourya/Atlan.git 
+```
+
+Go to the project directory
+
+```bash
+  cd Atlan
+```
+
+Install dependencies
+
+```bash
+  yarn add
+```
+
+Start the server
+
+```bash
+  yarn start
+```
+
+## Performance Audit
+
+### **[GTmetrix](https://gtmetrix.com/)**
+- The fully loaded time is 744ms seconds, with the first contentful paint at 542 ms.
+![image](https://github.com/mayankmangalmourya/Atlan/assets/87426167/36e15756-26f4-45bb-9633-d9380b5798b1)
+
+### **[Performance Metrix](https://gtmetrix.com/)**
+![image](https://github.com/mayankmangalmourya/Atlan/assets/87426167/2ed2d2fc-1f5f-4388-96a5-0e6100ede26f)
+
+
+### **[web.dev](https://web.dev/measure)**
+- The load time according to web.dev is **2.2 seconds**. The site also scores **96 perc performance** and **100 points in best practices**. The exact metrics are:
+![image](https://github.com/mayankmangalmourya/Atlan/assets/87426167/62481d43-aacf-466c-83ba-a8b62633a2fb)
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
