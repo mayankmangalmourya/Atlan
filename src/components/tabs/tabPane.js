@@ -12,15 +12,15 @@ function TabPane({ tab }) {
   const { result, isLoaded, error, timeOfRequest } = useFile(tab.title);
   return (
     <Fragment>
-      <QueryButtons />
       <Row
         style={{
           width: "100%",
-          height: "38vh",
+          height: "20vh",
         }}
       >
         <QuerySpace defaultQuery={tab.defaultQuery} />
       </Row>
+      <QueryButtons />
       <hr />
       <Tabs defaultActiveKey="results" className="mb-3">
         <Tab eventKey="results" title="Results">
