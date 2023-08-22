@@ -8,7 +8,7 @@ A web-based application capable of running SQL queries and displaying the result
 Clone the project
 
 ```bash
-  git clone https://github.com/mayankmangalmourya/Atlan.git
+  git clone https://github.com/mayankmangalmourya/Atlan.git 
 ```
 
 Go to the project directory
