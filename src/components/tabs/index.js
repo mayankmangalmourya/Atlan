@@ -25,7 +25,7 @@ function QueryTabs(props) {
         active={props.activeKey === tab.eventKey}
         href={tab.href}
         style={{
-          background:"blue",
+          background:"#0D6EFD",
           color:"white",
         }}
       >

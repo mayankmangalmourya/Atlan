@@ -45,9 +45,6 @@ function QueryButtons() {
   return (
     <ButtonToolbar
       className="mb-3 mt-3"
-      style={{
-        float: "right",
-      }}
     >
       <ButtonGroup className="me-2">{buttons}</ButtonGroup>
     </ButtonToolbar>
