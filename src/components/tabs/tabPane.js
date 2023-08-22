@@ -16,6 +16,7 @@ function TabPane({ tab }) {
         style={{
           width: "100%",
           height: "20vh",
+          padding:"10px",
         }}
       >
         <QuerySpace defaultQuery={tab.defaultQuery} />
